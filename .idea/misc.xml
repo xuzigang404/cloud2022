@@ -5,6 +5,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-eureka-server7002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-payment-9001/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-payment-9002/pom.xml" />
+        <option value="$PROJECT_DIR$/alibaba-consumer-payment-8083/pom.xml" />
       </list>
     </option>
   </component>

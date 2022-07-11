@@ -4,7 +4,161 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caebb1f8-1889-404b-9e5e-cfc458a8add5" name="Default Changelist" comment="" />
+    <list default="true" id="caebb1f8-1889-404b-9e5e-cfc458a8add5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-config-client-3377/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-config-client-3377/src/main/java/com/hsu/springcloud/Controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-config-client-3377/src/main/java/com/hsu/springcloud/NacosConfigClientMain3377.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-config-client-3377/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-config-client-3377/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-consumer-payment-8083/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-consumer-payment-8083/src/main/java/com/hsu/springcloud/Config/ApplicationContextBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-consumer-payment-8083/src/main/java/com/hsu/springcloud/ConsumerPayment8083.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-consumer-payment-8083/src/main/java/com/hsu/springcloud/Controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-consumer-payment-8083/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-payment-9001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-payment-9001/src/main/java/com/hsu/springcloud/Controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-payment-9001/src/main/java/com/hsu/springcloud/PaymentMain9001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-payment-9001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-payment-9002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-payment-9002/src/main/java/com/hsu/springcloud/Controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-payment-9002/src/main/java/com/hsu/springcloud/PaymentMain9002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-payment-9002/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java/com/hsu/springcloud/Controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java/com/hsu/springcloud/Controller/RateLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java/com/hsu/springcloud/Handler/CustomerBlockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java/com/hsu/springcloud/SentinelService8401.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hsu/springcloud/Entity/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hsu/springcloud/Entity/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/hsu/springcloud/Entity/Payment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/hsu/springcloud/Entity/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/hsu/springcloud/ConsumerHystrixPayment8080.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/hsu/springcloud/Controller/ConsumerPaymentHystrixController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/hsu/springcloud/Service/ConsumerPaymentHystrixService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/hsu/springcloud/Service/Impl/ConsumerPaymentHystrixServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8080/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8080/src/main/java/com/hsu/springcloud/Config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8080/src/main/java/com/hsu/springcloud/ConsumerMain8080.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8080/src/main/java/com/hsu/springcloud/Controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-order8080/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/hsu/springcloud/EurekaMain7001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/hsu/springcloud/Config/GateWayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/hsu/springcloud/Filter/MyLogGateWayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/java/com/hsu/springcloud/GateWay9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-gateway9527/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/hsu/springcloud/Controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/hsu/springcloud/PaymentHystrix8001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/java/com/hsu/springcloud/Service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/hsu/springcloud/Controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/hsu/springcloud/Dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/hsu/springcloud/Service/Impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/hsu/springcloud/Service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/hsu/springcloud/Controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/hsu/springcloud/Dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/hsu/springcloud/PaymentMain8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/hsu/springcloud/Service/Impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/java/com/hsu/springcloud/Service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/src/main/resources/mapper/PaymentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/hsu/springcloud/Controller/PaymentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/hsu/springcloud/Dao/PaymentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/hsu/springcloud/PaymentMain8001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/hsu/springcloud/Service/Impl/PaymentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/hsu/springcloud/Service/PaymentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/mapper/PaymentDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Dao/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Pojo/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/SeataAccountMainApp2003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Service/Impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Config/MyBatisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Controller/AccountController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Dao/AccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Pojo/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/SeataAccountMainApp2003.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Service/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Service/Impl/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/mapper/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Pojo/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/SeataOrderMain2001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Service/Impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Config/MyBatisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Controller/OrderController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Dao/OrderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Pojo/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/SeataOrderMain2001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Service/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Service/Impl/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Service/OrderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Service/StorageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Config/DataSourceProxyConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Config/MyBatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Dao/StorageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Pojo/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/SeataStorageServiceApplication2002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Service/Impl/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/mapper/StorageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Config/MyBatisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Controller/StorageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Dao/StorageDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Pojo/Storage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/SeataStorageServiceApplication2002.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Service/Impl/StorageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Service/StorageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/mapper/StorageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata/DEFAULT_GROUP/seataServer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata/conf/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata_account.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata_storage.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/hsu/springcloud/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/hsu/springcloud/PaymentMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +170,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
+        <option value="XML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -25,6 +182,40 @@
       <find>3.6</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-api-commons/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-eureka-server7001/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hsu/springcloud/Entity/Result.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hsu/springcloud/Entity/Payment.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-eureka-server7001/src/main/java/com/hsu/springcloud/EurekaMain7001.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/hsu/springcloud/Controller/PaymentController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/mapper/PaymentDao.xml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-consumer-order8080/src/main/resources/application.yaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/hsu/springcloud/Dao/PaymentDao.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-consumer-order8080/src/main/java/com/hsu/springcloud/Controller/OrderController.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-consumer-order8080/src/main/java/com/hsu/springcloud/ConsumerMain8080.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/hsu/springcloud/PaymentMain8001.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cloud-consumer-order8080/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -32,6 +223,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="$PROJECT_DIR$/../../environment/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -58,6 +250,7 @@
     <option name="height" value="1060" />
   </component>
   <component name="ProjectId" id="2AtNyMoJx03xuDJ6f8W3kCExDWh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -82,16 +275,218 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1655822314971" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql&amp;seataProperties/seata/conf" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15820312" />
     <property name="project.structure.side.proportion" value="0.28422275" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkSpace\cloud2022\sql&amp;seataProperties\seata\conf" />
+      <recent name="F:\WorkSpace\cloud2022\sql&amp;seataProperties" />
+      <recent name="F:\WorkSpace\cloud2022\seata-account-service2003\src\main\java\com\hsu\springcloud" />
+      <recent name="F:\WorkSpace\cloud2022\seata-storage-service2002\src\main\java\com\hsu\springcloud" />
+      <recent name="F:\WorkSpace\cloud2022\alibaba-payment-9002\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WorkSpace\cloud2022\seata-order-service2001\src\main\resources\mapper" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="clean install -Dmaven.test.skip=true -U" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SeataAccountMainApp2003">
+    <configuration name="ConsumerHystrixPayment8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-hystrix-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.ConsumerHystrixPayment8080" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerMain8080" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-order8080" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.ConsumerMain8080" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.EurekaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-eureka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.EurekaMain7002" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWay9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.GateWay9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosConfigClientMain3377" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-config-client-3377" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.NacosConfigClientMain3377" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentHystrix8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-hystrix-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.PaymentHystrix8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment-8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.PaymentMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment-8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.PaymentMain8002" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alibaba-payment-9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.PaymentMain9001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alibaba-payment-9001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.PaymentMain9001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain9002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="alibaba-payment-9002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.PaymentMain9002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataAccountMainApp2003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="seata-account-service2003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.SeataAccountMainApp2003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataOrderMain2001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="seata-order-service2001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.SeataOrderMain2001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataStorageServiceApplication2002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="seata-storage-service2002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.SeataStorageServiceApplication2002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelService8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="alibaba-sentinel-service8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hsu.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hsu.springcloud.SentinelService8401" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ConsumerHystrixPayment8080" />
+      <item itemvalue="Spring Boot.ConsumerMain8080" />
+      <item itemvalue="Spring Boot.EurekaMain7001" />
+      <item itemvalue="Spring Boot.EurekaMain7002" />
+      <item itemvalue="Spring Boot.GateWay9527" />
+      <item itemvalue="Spring Boot.PaymentHystrix8001" />
+      <item itemvalue="Spring Boot.PaymentMain8002" />
+      <item itemvalue="Spring Boot.PaymentMain9001" />
+      <item itemvalue="Spring Boot.PaymentMain9002" />
+      <item itemvalue="Spring Boot.SeataStorageServiceApplication2002" />
+      <item itemvalue="Spring Boot.SeataOrderMain2001" />
+      <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
+      <item itemvalue="Spring Boot.PaymentMain8001" />
+      <item itemvalue="Spring Boot.SentinelService8401" />
+      <item itemvalue="Spring Boot.SeataAccountMainApp2003" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SeataAccountMainApp2003" />
+        <item itemvalue="Spring Boot.SeataOrderMain2001" />
+        <item itemvalue="Spring Boot.NacosConfigClientMain3377" />
+        <item itemvalue="Spring Boot.SentinelService8401" />
+        <item itemvalue="Spring Boot.PaymentMain8001" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -107,7 +502,25 @@
       <workItem from="1655821135428" duration="1376000" />
       <workItem from="1655825176688" duration="1308000" />
       <workItem from="1655898731613" duration="195000" />
-      <workItem from="1655899265578" duration="4834000" />
+      <workItem from="1655899265578" duration="6291000" />
+      <workItem from="1655948135219" duration="278000" />
+      <workItem from="1655948480372" duration="1438000" />
+      <workItem from="1655949980318" duration="1576000" />
+      <workItem from="1655951657004" duration="32000" />
+      <workItem from="1655951883894" duration="8777000" />
+      <workItem from="1656058719707" duration="1233000" />
+      <workItem from="1656123088509" duration="14237000" />
+      <workItem from="1656300363586" duration="6746000" />
+      <workItem from="1656557252752" duration="7401000" />
+      <workItem from="1656643854728" duration="35569000" />
+      <workItem from="1657173046151" duration="3601000" />
+      <workItem from="1657178894729" duration="98000" />
+      <workItem from="1657182374530" duration="7122000" />
+      <workItem from="1657250098647" duration="594000" />
+      <workItem from="1657264372307" duration="33041000" />
+      <workItem from="1657335391644" duration="20179000" />
+      <workItem from="1657420322444" duration="14338000" />
+      <workItem from="1657512700682" duration="3253000" />
     </task>
     <servers />
   </component>
@@ -153,6 +566,24 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoSuchMethodError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">

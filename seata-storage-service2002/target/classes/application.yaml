@@ -1,0 +1,74 @@
+server:
+  port: 2002
+
+spring:
+  application:
+    name: seata-storage-service
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver   #8.0版本
+    url: jdbc:mysql://localhost:3306/seata_storage?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+
+
+  # nacos 配置
+  cloud:
+    nacos:
+      # nacos 服务地址
+      discovery:
+        server-addr: 127.0.0.1:8848
+        # 注册组 要与 seata 相同
+        group: DEFAULT_GROUP
+      config:
+        server-addr: 127.0.0.1:8848
+        # 配置组 要与 seata 相同
+        group: DEFAULT_GROUP
+
+# seata配置
+seata:
+  enabled: true
+  application-id: seata-storage-service
+  # Seata 事务组编号，此处需于 seata 相同
+  tx-service-group: default-tx-group
+  config:
+    type: nacos
+    nacos:
+      # nacos ip地址
+      server-addr: 127.0.0.1:8848
+      group: DEFAULT_GROUP
+      data-id: seataServer.properties # 读取 nacos seata 配置
+  registry:
+    type: nacos
+    nacos:
+      application: seata-server # seata 服务名
+      # nacos ip地址
+      server-addr: 127.0.0.1:8848
+      group: DEFAULT_GROUP
+      cluster: default
+      namespace:
+  service:
+    vgroup-mapping:
+      default-tx-group: default
+
+#
+#seata:
+#  service:
+#    vgroup-mapping:
+#      default_tx_group: default-tx-group
+#    grouplist:
+#      default-tx-group: 127.0.0.1:8091
+
+feign:
+  hystrix:
+    enabled: false
+  httpclient:
+    enabled: true
+logging:
+  level:
+    io:
+      seata: info
+
+mybatis:
+  mapperLocations: classpath:mapper/*.xml
+
