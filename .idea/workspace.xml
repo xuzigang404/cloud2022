@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="caebb1f8-1889-404b-9e5e-cfc458a8add5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="caebb1f8-1889-404b-9e5e-cfc458a8add5" name="Default Changelist" comment="seata issues#4763 复现代码">
       <change afterPath="$PROJECT_DIR$/alibaba-config-client-3377/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/alibaba-config-client-3377/src/main/java/com/hsu/springcloud/Controller/ConfigClientController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/alibaba-config-client-3377/src/main/java/com/hsu/springcloud/NacosConfigClientMain3377.java" afterDir="false" />
@@ -31,11 +29,6 @@
       <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java/com/hsu/springcloud/Handler/CustomerBlockHandler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/java/com/hsu/springcloud/SentinelService8401.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/alibaba-sentinel-service8401/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hsu/springcloud/Entity/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/hsu/springcloud/Entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/hsu/springcloud/Entity/Payment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/target/classes/com/hsu/springcloud/Entity/Result.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/hsu/springcloud/ConsumerHystrixPayment8080.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/src/main/java/com/hsu/springcloud/Controller/ConsumerPaymentHystrixController.java" afterDir="false" />
@@ -80,84 +73,10 @@
       <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/hsu/springcloud/Service/Impl/PaymentServiceImpl.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/com/hsu/springcloud/Service/PaymentService.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/cloud-provider-payment-8002/target/classes/mapper/PaymentDao.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Config/DataSourceProxyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Controller/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Dao/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Pojo/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/SeataAccountMainApp2003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/java/com/hsu/springcloud/Service/Impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/src/main/resources/mapper/AccountMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Config/MyBatisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Controller/AccountController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Dao/AccountDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Pojo/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/SeataAccountMainApp2003.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/com/hsu/springcloud/Service/Impl/AccountServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-account-service2003/target/classes/mapper/AccountMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Config/DataSourceProxyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Dao/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Pojo/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/SeataOrderMain2001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Service/AccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Service/Impl/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/java/com/hsu/springcloud/Service/StorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/src/main/resources/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Config/MyBatisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Controller/OrderController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Dao/OrderDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Pojo/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/SeataOrderMain2001.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Service/AccountService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Service/Impl/OrderServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Service/OrderService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/com/hsu/springcloud/Service/StorageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-order-service2001/target/classes/mapper/OrderMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Config/DataSourceProxyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Config/MyBatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Controller/StorageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Dao/StorageDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Pojo/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/SeataStorageServiceApplication2002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Service/Impl/StorageServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/java/com/hsu/springcloud/Service/StorageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/src/main/resources/mapper/StorageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Config/MyBatisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Controller/StorageController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Dao/StorageDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Pojo/Storage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/SeataStorageServiceApplication2002.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Service/Impl/StorageServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/com/hsu/springcloud/Service/StorageService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seata-storage-service2002/target/classes/mapper/StorageMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata/DEFAULT_GROUP/seataServer.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata/conf/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata_account.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata_order.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql&amp;seataProperties/seata_storage.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/hsu/springcloud/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/java/com/hsu/springcloud/PaymentMain8001.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -520,8 +439,16 @@
       <workItem from="1657264372307" duration="33041000" />
       <workItem from="1657335391644" duration="20179000" />
       <workItem from="1657420322444" duration="14338000" />
-      <workItem from="1657512700682" duration="3253000" />
+      <workItem from="1657512700682" duration="4115000" />
     </task>
+    <task id="LOCAL-00001" summary="seata issues#4763 复现代码">
+      <created>1657516622461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657516622461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -570,6 +497,10 @@
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
     <option featureType="dependencySupport" implementationName="java:com.google.inject:guice" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="seata issues#4763 复现代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="seata issues#4763 复现代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
